@@ -67,7 +67,8 @@ public class BankAccount {
     public static int showNumAccounts(){
       return numAccounts;
     }
-
+    // NINJA BONUS: Create a private method 
+    // that returns a random ten digit account number.
 
     private long generateAccountNum(){
       long BankAccountNum = new Random().nextInt(300000000)+ 4200000000L;
